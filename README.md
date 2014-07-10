@@ -19,6 +19,10 @@ If you'd like this to start up every time you log in, copy the .exe available fr
 
 As long as the program is running, the hotkeys will work. There is no UI or notification area icon.
 
+## Ideas for future improvements
+* Configurable mapping for any hotkey to any key
+* Tray icon and UI for configuring mappings
+
 ## Acknowledgements
 * [Christian Liensberger](http://www.liensberger.it/web/blog/?p=207): global hotkey registration on Windows
 * [pinvoke.net](http://pinvoke.net/): other Win32 method signatures
