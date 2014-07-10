@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("VirtualPlaybackKeys")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Charles Korn")]
 [assembly: AssemblyProduct("VirtualPlaybackKeys")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © 2014 Charles Korn.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
