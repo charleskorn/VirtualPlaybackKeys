@@ -13,7 +13,10 @@ namespace VirtualPlaybackKeys
         private Dictionary<Keys, Keys> mapping = new Dictionary<Keys, Keys>() { 
             {Keys.OemOpenBrackets, Keys.MediaPreviousTrack}, 
             {Keys.OemCloseBrackets, Keys.MediaNextTrack},
-            {Keys.OemPipe, Keys.MediaPlayPause}
+            {Keys.OemPipe, Keys.MediaPlayPause},
+            {Keys.Oemplus, Keys.VolumeUp}, // Yes, for some reason, the enumeration member has a lowercase P.
+            {Keys.OemMinus, Keys.VolumeDown},
+            {Keys.Back, Keys.VolumeMute}
         };
 
         public GlobalHotkeyManager()
