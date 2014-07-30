@@ -20,6 +20,8 @@ The emulation of the media playback keys should work with any program that suppo
 Note that the hotkeys only work if your session is unlocked (ie. if you're on the lock screen, you can't control playback or the volume).
 
 ## Installation and use
+Requirements: .NET Framework 4.5 (installed by default on Windows 8 and above, available from Windows Update or [http://go.microsoft.com/fwlink/?LinkID=324519](http://go.microsoft.com/fwlink/?LinkID=324519) for earlier versions)
+
 If you'd like this to start up every time you log in, copy the .exe available from [the releases page](https://github.com/charleskorn/VirtualPlaybackKeys/releases) into your Startup folder, which is usually something like `C:\Users\(your name)\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`. (The easiest way to find your startup folder is to open `shell:startup` using Run.)
 
 As long as the program is running, the hotkeys will work. There is no UI or notification area icon.
